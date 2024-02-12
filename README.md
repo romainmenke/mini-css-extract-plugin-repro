@@ -1,0 +1,5 @@
+- test the patched code:
+  - `npm run test`
+- test the unpatched code:
+  - `git revert 4d7f943da6388f2e18ca5d82a693015913d35206`
+  - `npm run test`
