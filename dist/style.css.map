@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA;CACC,iBAAiB;AAClB;;ACAA,KACC,SACD,C","sources":["webpack://mini-css-extract-plugin-repro/./style-imported.css","webpack://mini-css-extract-plugin-repro/./style-root.css"],"sourcesContent":["body {\n\tbackground: green;\n}\n","@import './style-imported.css';\n\n.foo {\n\tcolor: red;\n}\n"],"names":[],"sourceRoot":""}

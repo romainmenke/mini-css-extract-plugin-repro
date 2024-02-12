@@ -1,0 +1,21 @@
+{
+  "name": "mini-css-extract-plugin-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./component.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "npm run build && node source-map-js.cjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "cssnano": "^6.0.3",
+    "mini-css-extract-plugin": "^2.8.0",
+    "postcss-loader": "^8.1.0",
+    "source-map-js": "^1.0.2",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
